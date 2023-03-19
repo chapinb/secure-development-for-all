@@ -8,15 +8,16 @@
 
 ![SAST](https://img.shields.io/badge/Category-SAST-blue)
 
-Quick facts
-
-* Easy to integrate with **pre-commit**
-* Easy to install with `pip install bandit`
-* Easy to run:
-  * On one file: `bandit $file_name`
-  * Recursively: `bandit -r .`
-* Configurable in pyproject.toml
-
 [Bandit](https://github.com/PyCQA/bandit) is a project by
 [PyCQA](https://github.com/PyCQA) that searches for common security issues in
 Python code bases.
+
+* Install:
+  * `pip install bandit`
+  * pre-commit - See **cli_tools/pre-commit/python.pre-commit-config.yaml**
+* Configure:
+  * `pyproject.toml`
+* Run:
+  * via pre-commit.
+  * `bandit $file_name` to run on a single file.
+  * `bandit -r .` to run recursively.

@@ -18,5 +18,6 @@ of projects in a language agnostic manner.
 ## Python template
 
 This includes the following Python tools in pre-commit:
+
 * bandit
 * mypy
