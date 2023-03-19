@@ -54,7 +54,8 @@ These sections and tools have no particular order.
 
 ### CLI tools
 
-For language specific tools, please see the `cli_tools/` directory.
+For language specific tools, please see the
+[cli_tools/README.md](cli_tools/README.md).
 
 #### pre-commit
 

@@ -10,12 +10,16 @@ Please consider contributing back any tweaks as you find them.
 
 ## Base template
 
+[base.precommit-config.yaml](base.pre-commit-config.yaml)
+
 This includes a number of tasks that are bundled with the base pre-commit
 project. They provide a number of security and best practices across a variety
 of projects in a language agnostic manner.
 
 
 ## Python template
+
+[python.precommit-config.yaml](python.pre-commit-config.yaml)
 
 This includes the following Python tools in pre-commit:
 
