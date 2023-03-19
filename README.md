@@ -68,8 +68,8 @@ enforcing checks on the files staged for commit.
   * `pip install pre-commit`
 * Configure:
   * `.pre-commit-config.yaml`.
-  * Please see `cli_tools/pre-commit/README.md` for sample configuration files
-that you can employ in your project.
+  * Please see [cli_tools/pre-commit/README.md](cli_tools/pre-commit/README.md)
+    for sample configuration files that you can employ in your project.
   * `pre-commit install --install-hooks` to install git hooks
 * Run:
   * `git commit` to run against staged changes once the git hook is installed
