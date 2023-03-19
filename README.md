@@ -1,11 +1,11 @@
-# Secure Development for Everyone
+# Secure Development for All
 
 A collection of resources to make it easy to add secure development practices
 to your project.
 
 Table of Contents
 
-- [Secure Development for Everyone](#secure-development-for-everyone)
+- [Secure Development for All](#secure-development-for-all)
   - [Tools](#tools)
     - [IDE Extensions](#ide-extensions)
       - [Visual Studio Code](#visual-studio-code)
