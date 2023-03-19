@@ -13,6 +13,7 @@ Table of Contents
       - [Vim](#vim)
     - [CLI tools](#cli-tools)
       - [pre-commit](#pre-commit)
+      - [gitleaks](#gitleaks)
     - [Continuous Integration tools](#continuous-integration-tools)
       - [GitHub Actions](#github-actions)
       - [GitLab CI](#gitlab-ci)
@@ -64,6 +65,22 @@ enforcing checks on the files staged for commit.
 As an additional level, you can have your continuous integration (CI) service
 execute these same tasks across your merge request changes or entire code base
 to validate the compliance with the pre-commit configuration.
+
+#### gitleaks
+
+[Gitleaks](https://github.com/gitleaks/gitleaks) will scan your commit history
+and staged changes for signs of possible secrets.
+
+* Install:
+  * `brew install gitleaks`
+  * `docker pull ghcr.io/zricethezav/gitleaks:latest`
+  * clone and `make build`
+* Configure:
+  * `.gitleaks.toml`
+* Run:
+  * Supports pre-commit
+  * `gitleaks detect` will scan git history
+  * `gitleaks protect` will scan your staged changes
 
 ### Continuous Integration tools
 
