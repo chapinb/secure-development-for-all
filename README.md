@@ -62,6 +62,9 @@ as a git hook that can run a series of tools against only the changed files
 in your project. Further, it can be installed to run before each commit,
 enforcing checks on the files staged for commit.
 
+Please see `cli_tools/pre-commit/README.md` for sample configuration files
+that you can employ in your project.
+
 As an additional level, you can have your continuous integration (CI) service
 execute these same tasks across your merge request changes or entire code base
 to validate the compliance with the pre-commit configuration.
