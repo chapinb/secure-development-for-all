@@ -13,3 +13,10 @@ Please consider contributing back any tweaks as you find them.
 This includes a number of tasks that are bundled with the base pre-commit
 project. They provide a number of security and best practices across a variety
 of projects in a language agnostic manner.
+
+
+## Python template
+
+This includes the following Python tools in pre-commit:
+* bandit
+* mypy

@@ -1,0 +1,12 @@
+# This builds on the `base.pre-commit-config.yaml`. You can copy
+# everything after the `repos:` line into your configuration file.
+repos:
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v1.1.1'
+    hooks:
+    - id: mypy
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: '1.7.5'
+    hooks:
+    - id: bandit
