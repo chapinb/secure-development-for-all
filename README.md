@@ -62,8 +62,17 @@ as a git hook that can run a series of tools against only the changed files
 in your project. Further, it can be installed to run before each commit,
 enforcing checks on the files staged for commit.
 
-Please see `cli_tools/pre-commit/README.md` for sample configuration files
+* Install:
+  * `pip install pre-commit`
+* Configure:
+  * `.pre-commit-config.yaml`.
+  * Please see `cli_tools/pre-commit/README.md` for sample configuration files
 that you can employ in your project.
+  * `pre-commit install --install-hooks` to install git hooks
+* Run:
+  * `git commit` to run against staged changes once the git hook is installed
+  * `pre-commit run` to run against staged changes
+  * `pre-commit run --all` to run against all files
 
 As an additional level, you can have your continuous integration (CI) service
 execute these same tasks across your merge request changes or entire code base
