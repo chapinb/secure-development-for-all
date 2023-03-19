@@ -3,6 +3,8 @@
 A collection of resources to make it easy to add secure development practices
 to your project.
 
+![License](https://img.shields.io/github/license/chapinb/secure-development-for-all)
+
 Table of Contents
 
 - [Secure Development for All](#secure-development-for-all)
