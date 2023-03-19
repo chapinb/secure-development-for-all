@@ -27,9 +27,9 @@ Table of Contents
 # Goals
 
 This is intended to help you get started or further mature your security
-practices regarding security. Whether you are a full time developer, hobbiest,
-or a scripter, there is something here to help you improve visibility into
-the security posture of your projects.
+practices for your development projects. Whether you are a full time developer,
+hobbiest, or write the occasional script, there is something here to help you
+improve visibility into the security posture of your projects.
 
 # Roadmap
 
