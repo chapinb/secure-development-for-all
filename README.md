@@ -14,6 +14,7 @@ Table of Contents
     - [CLI tools](#cli-tools)
       - [pre-commit](#pre-commit)
       - [gitleaks](#gitleaks)
+      - [Semgrep](#semgrep)
     - [Continuous Integration tools](#continuous-integration-tools)
       - [GitHub Actions](#github-actions)
       - [GitLab CI](#gitlab-ci)
@@ -93,6 +94,20 @@ and staged changes for signs of possible secrets.
   * Supports pre-commit
   * `gitleaks detect` will scan git history
   * `gitleaks protect` will scan your staged changes
+
+#### Semgrep
+
+[Semgrep](https://github.com/returntocorp/semgrep) is a static application
+security testing tool that provides support for multiple languages.
+
+* Install:
+  * `brew install semgrep`
+  * `pip install semgrep`
+  * `docker pull returntocorp/semgrep`
+* Configure:
+  * YAML - See https://semgrep.dev/docs/
+* Run:
+  * `semgrep scan --config auto` will scan with default settings
 
 ### Continuous Integration tools
 
