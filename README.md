@@ -6,19 +6,19 @@ to your project.
 Table of Contents
 
 - [Secure Development for All](#secure-development-for-all)
-  - [Tools](#tools)
-    - [IDE Extensions](#ide-extensions)
-      - [Visual Studio Code](#visual-studio-code)
-      - [PyCharm](#pycharm)
-      - [Vim](#vim)
-    - [CLI tools](#cli-tools)
-      - [pre-commit](#pre-commit)
-      - [gitleaks](#gitleaks)
-      - [Semgrep](#semgrep)
-    - [Continuous Integration tools](#continuous-integration-tools)
-      - [GitHub Actions](#github-actions)
-      - [GitLab CI](#gitlab-ci)
-      - [Jenkins](#jenkins)
+- [Tools](#tools)
+  - [IDE Extensions](#ide-extensions)
+    - [Visual Studio Code](#visual-studio-code)
+    - [PyCharm](#pycharm)
+    - [Vim](#vim)
+  - [CLI tools](#cli-tools)
+    - [pre-commit](#pre-commit)
+    - [gitleaks](#gitleaks)
+    - [Semgrep](#semgrep)
+  - [Continuous Integration tools](#continuous-integration-tools)
+    - [GitHub Actions](#github-actions)
+    - [GitLab CI](#gitlab-ci)
+    - [Jenkins](#jenkins)
 
 The [Tools](#tools) section has a number of options that can be used in
 concert or independent with eachother. They are ordered in the ease of
@@ -26,11 +26,11 @@ implementation, from easiest to most difficult. Simultaneously they are
 ordered from individual to team impact (as implementing it yourself is
 naturally easier to do.)
 
-## Tools
+# Tools
 
 Please consider opening a PR with your reccomendations about tools to add.
 
-### IDE Extensions
+## IDE Extensions
 
 [Back to Top](#secure-development-for-all)
 
@@ -40,28 +40,28 @@ editors while others are only available for a specific tool.
 
 These sections and tools have no particular order.
 
-#### Visual Studio Code
+### Visual Studio Code
 
 * [SonarLint](https://www.sonarsource.com/products/sonarlint/)
 * [Sourcery](https://sourcery.ai/)
 
-#### PyCharm
+### PyCharm
 
 * [SonarLint](https://www.sonarsource.com/products/sonarlint/)
 * [Sourcery](https://sourcery.ai/)
 
-#### Vim
+### Vim
 
 * [ale](https://github.com/dense-analysis/ale)
 
-### CLI tools
+## CLI tools
 
 [Back to Top](#secure-development-for-all)
 
 For language specific tools, please see the
 [cli_tools/README.md](cli_tools/README.md).
 
-#### pre-commit
+### pre-commit
 
 [pre-commit](https://pre-commit.com/) is a flexible tool that installs itself
 as a git hook that can run a series of tools against only the changed files
@@ -84,7 +84,7 @@ As an additional level, you can have your continuous integration (CI) service
 execute these same tasks across your merge request changes or entire code base
 to validate the compliance with the pre-commit configuration.
 
-#### gitleaks
+### gitleaks
 
 [Gitleaks](https://github.com/gitleaks/gitleaks) will scan your commit history
 and staged changes for signs of possible secrets.
@@ -100,7 +100,7 @@ and staged changes for signs of possible secrets.
   * `gitleaks detect` will scan git history
   * `gitleaks protect` will scan your staged changes
 
-#### Semgrep
+### Semgrep
 
 [Semgrep](https://github.com/returntocorp/semgrep) is a static application
 security testing tool that provides support for multiple languages.
@@ -114,12 +114,12 @@ security testing tool that provides support for multiple languages.
 * Run:
   * `semgrep scan --config auto` will scan with default settings
 
-### Continuous Integration tools
+## Continuous Integration tools
 
 [Back to Top](#secure-development-for-all)
 
-#### GitHub Actions
+### GitHub Actions
 
-#### GitLab CI
+### GitLab CI
 
-#### Jenkins
+### Jenkins
