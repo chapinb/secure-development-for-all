@@ -9,6 +9,7 @@ Table of Contents
 
 - [Secure Development for All](#secure-development-for-all)
 - [Goals](#goals)
+- [Roadmap](#roadmap)
 - [Tools](#tools)
   - [IDE Extensions](#ide-extensions)
     - [Visual Studio Code](#visual-studio-code)
@@ -23,18 +24,14 @@ Table of Contents
     - [GitLab CI](#gitlab-ci)
     - [Jenkins](#jenkins)
 
-The [Tools](#tools) section has a number of options that can be used in
-concert or independent with eachother. They are ordered in the ease of
-implementation, from easiest to most difficult. Simultaneously they are
-ordered from individual to team impact (as implementing it yourself is
-naturally easier to do.)
-
 # Goals
 
 This is intended to help you get started or further mature your security
 practices regarding security. Whether you are a full time developer, hobbiest,
 or a scripter, there is something here to help you improve visibility into
 the security posture of your projects.
+
+# Roadmap
 
 Consider the following roadmap for implementation:
 
@@ -51,6 +48,12 @@ Consider the following roadmap for implementation:
    consistency and confidence as your project evolves.
 
 # Tools
+
+This section has a number of options that can be used in
+concert or independent with eachother. They are ordered in the ease of
+implementation, from easiest to most difficult. Simultaneously they are
+ordered from individual to team impact (as implementing it yourself is
+naturally easier to do.)
 
 Please consider opening a PR with your reccomendations about tools to add.
 
