@@ -8,6 +8,7 @@ to your project.
 Table of Contents
 
 - [Secure Development for All](#secure-development-for-all)
+- [Goals](#goals)
 - [Tools](#tools)
   - [IDE Extensions](#ide-extensions)
     - [Visual Studio Code](#visual-studio-code)
@@ -27,6 +28,27 @@ concert or independent with eachother. They are ordered in the ease of
 implementation, from easiest to most difficult. Simultaneously they are
 ordered from individual to team impact (as implementing it yourself is
 naturally easier to do.)
+
+# Goals
+
+This is intended to help you get started or further mature your security
+practices regarding security. Whether you are a full time developer, hobbiest,
+or a scripter, there is something here to help you improve visibility into
+the security posture of your projects.
+
+Consider the following roadmap for implementation:
+
+1. Install the [IDE extensions](#ide-extensions) into your editor and read
+   about any findings the tools have, addressing them as appropriate.
+
+2. Download some of the mentioned [CLI tools](#cli-tools) and run them against
+   the whole project to see about any areas of improvement outside of your
+   current working files.
+
+3. Once you feel that your project meets the standards you would like, employ
+   [Continuous Integration tools](#continuous-integration-tools) to enforce
+   these standards on your code and future contributions. This increases
+   consistency and confidence as your project evolves.
 
 # Tools
 
