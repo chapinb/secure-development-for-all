@@ -32,6 +32,8 @@ Please consider opening a PR with your reccomendations about tools to add.
 
 ### IDE Extensions
 
+[Back to Top](#secure-development-for-all)
+
 The easiest place to start is by adding tools to your IDE that help identify
 areas for improvement in your code. Some of these tools are similar across
 editors while others are only available for a specific tool.
@@ -53,6 +55,8 @@ These sections and tools have no particular order.
 * [ale](https://github.com/dense-analysis/ale)
 
 ### CLI tools
+
+[Back to Top](#secure-development-for-all)
 
 For language specific tools, please see the
 [cli_tools/README.md](cli_tools/README.md).
@@ -111,6 +115,8 @@ security testing tool that provides support for multiple languages.
   * `semgrep scan --config auto` will scan with default settings
 
 ### Continuous Integration tools
+
+[Back to Top](#secure-development-for-all)
 
 #### GitHub Actions
 
