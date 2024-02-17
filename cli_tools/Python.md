@@ -3,6 +3,7 @@
 - [Python CLI Tools](#python-cli-tools)
   - [Bandit](#bandit)
   - [mypy](#mypy)
+  - [Ruff](#ruff)
 
 
 ## Bandit
@@ -41,3 +42,23 @@ that provides static type checking using Python's type hints.
   * via pre-commit
   * `mypy .`
   * `mypy some_module/some_file.py`
+
+## Ruff
+
+![Type Checker](https://img.shields.io/badge/Category-Type%20Checker-green)
+![SAST](https://img.shields.io/badge/Category-SAST-blue)
+![Linting](https://img.shields.io/badge/Category-Linting-purple)
+![Formatting](https://img.shields.io/badge/Category-Formatting-teal)
+
+[Ruff](https://github.com/astral-sh/ruff) is a single tool that provides
+linting and formatting capabilities with extensible configurations and rule sets.
+
+* Install:
+  * `pip install ruff`
+  * pre-commit - See **cli_tools/pre-commit/python.pre-commit-config.yaml**
+* Configure:
+  * `pyproject.toml` and other methods [described in their documentation](https://docs.astral.sh/ruff/configuration/)
+* Run:
+  * via pre-commit
+  * `ruff check`
+  * `ruff format`
