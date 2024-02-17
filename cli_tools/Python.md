@@ -58,6 +58,7 @@ linting and formatting capabilities with extensible configurations and rule sets
   * pre-commit - See **cli_tools/pre-commit/python.pre-commit-config.yaml**
 * Configure:
   * `pyproject.toml` and other methods [described in their documentation](https://docs.astral.sh/ruff/configuration/)
+  * See the [rules section of the documentation](https://docs.astral.sh/ruff/rules/) for notes on how to enable bandit, type annotation, and many other checks to improve your code quality and safety.
 * Run:
   * via pre-commit
   * `ruff check`
